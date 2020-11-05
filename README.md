@@ -1,1 +1,3 @@
-# lokalapp.ph
+# Lokal
+--------
+Domain: lokalapp.ph
