@@ -335,6 +335,20 @@ textarea {
   display: block;
 }
 
+.logo .header-text {
+  color: #09A49A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: GoldplayBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  height: 34px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
 .logo .sub-text {
   color: #09A49A;
   margin-top: 20px;
@@ -454,13 +468,13 @@ textarea {
   width: 0;
   height: 82px;
   transition: width 0.5s ease;
-  
+
 }
 
 
 
 @media (min-width: 320px) and (max-width: 500px) {
-  
+
   .main p {
     font-size: 14px;
   }
@@ -474,3 +488,50 @@ textarea {
   }
 }
 
+/* Page  */
+
+h1, h2, h3 {
+  max-width: 529px;
+  min-width: 306px;
+  width: 58%;
+  margin: 20px auto;
+  font-family: GoldplaySemiBold;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom:0;
+}
+
+h3 ~ p {
+  margin-top: 0px !important;
+}
+
+ul {
+  max-width: 529px;
+  min-width: 306px;
+  width: 58%;
+  margin: 20px auto;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.page .main {
+  margin-top: 30px;
+}
+
+.page .main p {
+  text-align: left;
+  font-family: Goldplay;
+  font-weight: 400;
+}
+
+.page .houses {
+  position: fixed;
+}
